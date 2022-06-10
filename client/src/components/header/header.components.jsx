@@ -1,8 +1,25 @@
 import React from 'react'
-
+import './header.styles.css'
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='navbar'>
+      <div className='nav_options'>
+        <ul>
+          <li><a href='/'>ABOUT US</a></li>
+          <li><a href='/about'>GALLERY</a></li>
+          <li><a href='/projects'>ACTIVITIES</a></li>
+          <li><a href='/resume'>HOTELS</a></li>
+          <li><a href='/contact'>TRIPS</a></li>
+        </ul>
+        </div>
+        <div className='signin_options'>
+        <ul>
+          <span className='gray'><li><a href='/'>sign up</a></li></span>
+          <li><a href='/about'>log in</a></li>
+        </ul>
+      </div>
+    </div>
+    
   )
 }
 

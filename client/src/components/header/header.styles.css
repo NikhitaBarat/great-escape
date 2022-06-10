@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.nav_options ul{
+    display: flex;
+    list-style: none;
+}
+.nav_options li{
+    margin: 0 1.5rem;
+}
+.nav_options li a{
+    text-decoration: none;
+    border: none;
+    
+}
+.nav_options li a:hover{
+    border-bottom: 2px solid;
+}
+.signin_options ul{
+    display: flex;
+    list-style: none;
+}
+.signin_options li{
+    margin: 0 1.5rem;
+}
+.signin_options li a{
+    text-decoration: none;
+    border: none;
+}
+.signin_options li a:hover{
+    border-bottom: 1px solid;
+}
+.gray{
+    color: gray;
+}
