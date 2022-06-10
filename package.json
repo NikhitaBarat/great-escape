@@ -6,7 +6,7 @@
   "scripts": {
     "client": "cd client && npm run start",
     "server": "nodemon server.js",
-    "heroku-postbuild": "",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
