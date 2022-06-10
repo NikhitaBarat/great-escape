@@ -1,5 +1,6 @@
 <h1 align="center">Great Escape</h1>
 
+![](./assets/preview-ge.png)
 
 
 ### Contributors:
