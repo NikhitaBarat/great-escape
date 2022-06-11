@@ -1,6 +1,6 @@
 import React from "react";
 import "./activities.styles.css";
-import ActivityCard from "../../components/activity/activityCard.components";
+import ActivityCard from "../../components/activityCard/activityCard.components";
 import SearchIcon from "../../assets/ei_search.png";
 import JetSki from "../../assets/jetski.png";
 import Cruising from "../../assets/cruising.png";

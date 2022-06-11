@@ -1,13 +1,19 @@
-export { default as cards8} from './image8.png'
-export { default as cards9} from './image9.png'
-export { default as cards10} from './image10.png'
-export { default as cards11} from './image11.png'
-export { default as cards12} from './image12.png'
-export { default as cards13} from './image13.png'
-export { default as cards14} from './image14.png'
-export { default as cards15} from './image15.png'
-export { default as cards16} from './image16.png'
-export { default as cards17} from './image17.png'
-export { default as Homebg } from './homebg.png'
-export { default as Sky } from './sky.png'
-export { default as Plane } from './plane.png'
+export { default as cards8 } from "./image8.png";
+export { default as cards9 } from "./image9.png";
+export { default as cards10 } from "./image10.png";
+export { default as cards11 } from "./image11.png";
+export { default as cards12 } from "./image12.png";
+export { default as cards13 } from "./image13.png";
+export { default as cards14 } from "./image14.png";
+export { default as cards15 } from "./image15.png";
+export { default as cards16 } from "./image16.png";
+export { default as cards17 } from "./image17.png";
+export { default as Homebg } from "./homebg.png";
+export { default as Sky } from "./sky.png";
+export { default as Plane } from "./plane.png";
+export { default as block1 } from "./image 40.png";
+export { default as block2 } from "./image 41.png";
+export { default as block3 } from "./image 42.png";
+export { default as block4 } from "./image 43.png";
+export { default as block5 } from "./image 44.png";
+export { default as block6 } from "./image 45.png";
