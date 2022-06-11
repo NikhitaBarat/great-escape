@@ -1,0 +1,28 @@
+.search {
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh;
+    padding-top: 2rem;
+    padding-left: 15rem;
+    border-radius: 20rem;
+  }
+.search-field {
+    display: flex;
+    width: 40rem;
+    align-items: center;
+    background-color: #EAEAEA;
+    padding: .05rem 1rem;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.search-field input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+img{
+    height: 2rem;
+}
