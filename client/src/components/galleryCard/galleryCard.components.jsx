@@ -1,11 +1,11 @@
 import React from "react";
-import "./gallery.styles.css";
+import "./galleryCard.styles.css";
 import Photo1 from "../../assets/image 19.png";
 import Photo2 from "../../assets/image 21.png";
 import Photo3 from "../../assets/image 22.png";
 import Photo4 from "../../assets/image 23.png";
 
-function Gallery() {
+function GalleryCard() {
   return (
     <div className="gallery">
       <div className="row">
@@ -23,4 +23,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default GalleryCard;

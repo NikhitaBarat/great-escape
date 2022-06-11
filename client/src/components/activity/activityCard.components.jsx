@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ActivityCard = () => {
-  return (
-    <div>ActivityCard</div>
-  )
-}
+  return <div>ActivityCard</div>;
+};
 
-export default ActivityCard
+export default ActivityCard;
