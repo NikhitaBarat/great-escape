@@ -1,9 +1,9 @@
 import React from 'react'
 import './footer.styles.css'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
@@ -34,10 +34,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class=" item social">
-                  <a href="#">< FacebookIcon /></a>
-                  <a href="#">< InstagramIcon /></a>
-                  <a href="#">< TwitterIcon /></a>
-                  <a href="#">< LinkedInIcon /></a>
+                  {/* <a href="#"><FacebookIcon /></a>
+                  <a href="#"><InstagramIcon /></a>
+                  <a href="#"><TwitterIcon /></a>
+                  <a href="#"><LinkedInIcon /></a> */}
                 </div>
             </div>
             <p class="copyright">Great Escape © 2022</p>
