@@ -17,6 +17,27 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './client/build', 'index.html'))
 })
 
+app.get('/gallery', (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+})
+
+app.get('/hotels', (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+})
+
+app.get('/activites', (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+})
+
+app.get('/trip', (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+})
+
+app.get('/profile', (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+})
+
+
 // middleware
 app.use(express.json())
 app.use(cors())
