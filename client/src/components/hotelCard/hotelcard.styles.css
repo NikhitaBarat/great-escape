@@ -120,3 +120,10 @@
     font-size: 1.2rem;
     color: grey;
 }
+
+.filter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}

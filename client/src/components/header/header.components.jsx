@@ -26,10 +26,20 @@ const Header = () => {
         </ul>
         </div>
         <div className='signin_options'>
-        <ul>
-          <span className='gray'><li><a href='/'>sign up</a></li></span>
-          <li onClick={() => loginWithRedirect()}><a href='/about'>log in</a></li>
-        </ul>
+        { !isAuthenticated && (
+          <ul>
+            <span className='gray'><li onClick={() => loginWithRedirect()}><a href='/'>sign up</a></li></span>
+            <li onClick={() => loginWithRedirect()}><a href='/about'>log in</a></li>
+          </ul>
+        )}
+        {
+          isAuthenticated && (
+            <ul>
+              <span className='gray'><li onClick={() => logoutWithRedirect()}><a href='/'>Logout</a></li></span>
+              <li><a href='/profile'><img className='user-image' src={user.picture} alt=''/></a></li>
+          </ul>
+          )
+        }
       </div>
     </div>
     

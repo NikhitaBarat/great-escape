@@ -1,18 +1,42 @@
 const { graphqlHTTP } = require('express-graphql')
 const { buildSchema } = require('graphql')
-const express = require('express')
-const router = express.Router()
+const axios = require('axios')
 
 let schema = buildSchema(`
+    type Hotel {
+        hotel_name: String,
+        imgurl: String,
+        despscription: String,
+        rating: Float,
+        old_price: Float,
+        new_price: Float,
+    }
     type Query {
-        hello: String
+        hello: String,
+        hotels: [Hotel]
     }
 `)
 
 let root = {
     hello: () => {
         return 'Welcome to GraphQL'
+    },
+    hotels: () => {
+        let hotels = []
+        hotels = getHotels()
+        return hotels
     }
+}
+
+
+const getHotels = async () => {
+    try {
+        const response = await axios.get('http://localhost:4000/api/hotels/all')
+        return response.data
+    }catch(err) {
+        console.error(err)
+    }
+
 }
 
 module.exports = graphqlHTTP({
