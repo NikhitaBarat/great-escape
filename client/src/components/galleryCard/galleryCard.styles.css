@@ -9,9 +9,8 @@
         display: flex;
     }
     
-    .photo img {
-        margin: auto;
-        border-radius: 2rem;
+    .watersportsimage {
+        border-radius: 4rem;
         height: 50rem;
         width: 25rem;
         padding: 2rem;

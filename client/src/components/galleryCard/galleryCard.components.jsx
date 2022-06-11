@@ -13,10 +13,10 @@ function GalleryCard() {
           <h3 className="heading">PHOTO GALLERY</h3>
         </div>
         <div className="photo">
-          <img src={Photo1} alt="" />
-          <img src={Photo2} alt="" />
-          <img src={Photo3} alt="" />
-          <img src={Photo4} alt="" />
+          <img className="watersportsimage" src={Photo1} alt="" />
+          <img className="watersportsimage" src={Photo2} alt="" />
+          <img className="watersportsimage" src={Photo3} alt="" />
+          <img className="watersportsimage" src={Photo4} alt="" />
         </div>
       </div>
     </div>
