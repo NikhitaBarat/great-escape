@@ -1,0 +1,9 @@
+.profile-header{
+    background: linear-gradient(87.83deg, rgba(0, 255, 25, 0.2) 0%, rgba(155, 62, 199, 0.108) 100%), #D3D5FF;
+    height: 11rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.profile-image{
+    border-radius: 200px;
+}
