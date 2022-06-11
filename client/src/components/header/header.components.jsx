@@ -1,6 +1,18 @@
 import React from 'react'
 import './header.styles.css'
+import { useAuth0 } from "@auth0/auth0-react";
+
 const Header = () => {
+  const {
+    user,
+    isAuthenticated,
+    loginWithRedirect,
+    logout,
+  } = useAuth0();
+  const logoutWithRedirect = () =>
+    logout({
+      returnTo: window.location.origin,
+    });
   return (
     <div className='navbar'>
       <div></div>
@@ -16,7 +28,7 @@ const Header = () => {
         <div className='signin_options'>
         <ul>
           <span className='gray'><li><a href='/'>sign up</a></li></span>
-          <li><a href='/about'>log in</a></li>
+          <li onClick={() => loginWithRedirect()}><a href='/about'>log in</a></li>
         </ul>
       </div>
     </div>
