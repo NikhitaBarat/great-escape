@@ -26,32 +26,24 @@
 
 .waterimage {
     height: 2rem;
+    width: auto;
 }
 
 .water {
     display: flex;
-}
-
-.water1 {
-    padding: 5rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: 10rem 0;
 }
 
-.water1 img {
-    height: 25rem;
-    width: 15rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+.water img {
+    height: 20rem;
+    margin: 0 5rem;
+    transition: all .5s;
+    cursor: pointer;
 }
 
-.water2 {
-    padding: 5rem;
-    text-align: center;
-}
-
-.water2 img {
-    height: 25rem;
-    width: 15rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+.water img:hover {
+    transform: scale(1.05);
 }

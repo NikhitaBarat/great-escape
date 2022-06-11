@@ -8,12 +8,6 @@ import Cruising from "../../assets/cruising.png";
 function Activities() {
   return (
     <div className="activities">
-      <div className="search">
-        <div className="search-field">
-          <input type="string" placeholder="Search" />
-          <img src={SearchIcon} alt="" />
-        </div>
-      </div>
       <div className="water">
         <div className="water1">
           <img className="waterimage" src={JetSki} alt="" />
