@@ -9,7 +9,7 @@ const Hotels = () => {
       <div className='search'>
         <div className="search-field">
           <input type="string" placeholder="Search" />
-          <img src={SearchIcon} alt="" />
+          <img className='searchimage' src={SearchIcon} alt="" />
         </div>
       </div>
       <HotelCard />
