@@ -8,7 +8,7 @@ import Photo4 from "../../assets/image 23.png";
 function GalleryCard() {
   return (
     <div className="gallery">
-      <div className="row">
+      <div className="gallery-row">
         <div className="gallery-info">
           <h3 className="heading">PHOTO GALLERY</h3>
         </div>
