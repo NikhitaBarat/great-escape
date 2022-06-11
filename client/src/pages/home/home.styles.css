@@ -32,7 +32,10 @@
     margin-top: -10rem;
     margin-left: -30rem;
 }
-
+.middle-section {
+    margin-top: 20rem;
+}
 .middle-section h1 {
     font-size: 5rem;
+    margin-right: 2rem;
 }
