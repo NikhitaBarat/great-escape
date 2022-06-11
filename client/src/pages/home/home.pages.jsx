@@ -15,11 +15,11 @@ const Home = () => {
       </div>
     </div>
     <div className="middle-section">
+      <h1>Tickets and <br/> Accomodation</h1>
       <div className="home-container">
         <img className='bg-sky' src={Sky} alt="" />
       </div>
       <img src={Plane} className="plane" alt="" />
-      <h1>Tickets and <br/> Accomodation</h1>
     </div>
     </div>
   )

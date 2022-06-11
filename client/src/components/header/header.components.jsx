@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div className='signin_options'>
         <ul>
-          <span className='gray'><li><a href='/'>sign up</a></li></span>
+          <span ><li><a className='gray' href='/'>sign up</a></li></span>|
           <li><a href='/about'>log in</a></li>
         </ul>
       </div>
