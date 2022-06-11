@@ -4,6 +4,16 @@
     margin: 2rem;
     border-radius: 1rem;
 }
-.profile-image{
-    border-radius: 200px;
+.profile-image-icon{
+    border-radius: 400px;
+    height: 13rem;
+    width: 13rem;
+    margin-left: 4rem;
+    margin-top: -7rem;
+}
+.profile-card{
+    margin-left: -18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

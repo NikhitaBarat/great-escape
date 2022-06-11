@@ -7,8 +7,10 @@ const Profile = () => {
     <div>
       <div className='profile-header'>
       </div>
-      <div className='profile-image'>
-        <img src={profileicon} alt="" />
+      <img className='profile-image-icon' src={profileicon} alt="" />
+      <div className='profile-card'>
+        <h1>JAKE PAUL</h1><br />
+        <h2>Welcome back, jake! <br /> Let’s explore the world</h2>
       </div>
     </div>
   )
