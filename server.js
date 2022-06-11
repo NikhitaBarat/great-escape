@@ -25,7 +25,7 @@ app.get('/hotels', (req, res) => {
   res.sendFile(path.join(__dirname, './client/build', 'index.html'))
 })
 
-app.get('/activites', (req, res) => {
+app.get('/activities', (req, res) => {
   res.sendFile(path.join(__dirname, './client/build', 'index.html'))
 })
 
