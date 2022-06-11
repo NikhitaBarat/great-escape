@@ -12,7 +12,7 @@ const Hotels = () => {
           <img src={SearchIcon} alt="" />
         </div>
       </div>
-      < HotelCard />
+      <HotelCard />
     </div>
   )
 }
