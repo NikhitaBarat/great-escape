@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/header/header.components.jsx";
+import Footer from "./components/footer/footer.components.jsx"
 import { Routes, Route } from "react-router-dom";
 import { Trip, Hotels, Home, Activities, Profile, Gallery, Contact } from "./pages";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
