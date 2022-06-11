@@ -31,7 +31,7 @@ let root = {
 
 const getHotels = async () => {
     try {
-        const response = await axios.get('http://localhost:4000/api/hotels/all')
+        const response = await axios.get('https://great-escape.herokuapp.com/api/hotels/all')
         return response.data
     }catch(err) {
         console.error(err)
