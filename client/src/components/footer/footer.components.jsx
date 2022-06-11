@@ -15,17 +15,17 @@ const Footer = () => {
                     <div class=" item">
                         <h2>Services</h2>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="/">Web design</a></li>
+                            <li><a href="/">Development</a></li>
+                            <li><a href="/">Hosting</a></li>
                         </ul>
                     </div>
                     <div class=" item">
                         <h2>About</h2>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
+                            <li><a href="/">Company</a></li>
+                            <li><a href="/">Team</a></li>
+                            <li><a href="/">Careers</a></li>
                         </ul>
                     </div>
                     <div class=" item text">
