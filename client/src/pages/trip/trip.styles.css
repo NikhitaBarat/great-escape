@@ -28,7 +28,9 @@
     padding-bottom: 2rem !important;
     padding-left: 2rem !important;
     margin-bottom: 3rem;
-    position: relative;
+    position: absolute;
+    z-index: 2;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,8 +52,44 @@
     padding-bottom: 2rem !important;
     padding-right: 2rem !important;
     margin-bottom: 3rem;
-    position: relative;
+    position: absolute;
+    z-index: 2;
+    top: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media only screen and  (min-width: 1200px) {
+    .box-left {
+        left: 5rem;
+    }
+    .box-right {
+        right: 5rem;
+    }
+}
+
+@media only screen and  (min-width: 1500px) {
+    .box-left {
+        left: 10rem;
+    }
+    .box-right {
+        right: 10rem;
+    }
+}
+@media only screen and  (min-width: 1600px) {
+    .box-left {
+        left: 15rem;
+    }
+    .box-right {
+        right: 15rem;
+    }
+}
+@media only screen and  (min-width: 1800px) {
+    .box-left {
+        left: 20rem;
+    }
+    .box-right {
+        right: 20rem;
+    }
 }
