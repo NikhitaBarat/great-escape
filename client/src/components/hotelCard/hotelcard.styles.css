@@ -48,11 +48,12 @@
     display: flex;
     align-items: center;
     gap: 8em;
-    padding: 2em 2rem;
+    padding: 1rem;
     border-radius: calc(var(--curve) * 1px) 0 0 0;
     background-color: var(--surface-color);
     transform: translateY(-100%);
     transition: .2s ease-in-out;
+    cursor: pointer;
 }
 
 .card__arc {
@@ -81,7 +82,7 @@
 }
 
 .card__title {
-    font-size: 1em;
+    font-size: 1.5rem;
     margin: 0 0 .3em;
 }
 
@@ -98,8 +99,24 @@
 .card__description {
     padding: 0 2em 2em;
     margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+}
+
+.card__right {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.card__header-text {
+    line-height: 20px;
+}
+.card__header-text span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: grey;
 }

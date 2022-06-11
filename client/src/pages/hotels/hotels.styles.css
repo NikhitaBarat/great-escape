@@ -5,7 +5,11 @@
     padding-top: 2rem;
     padding-left: 15rem;
     border-radius: 20rem;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .search-field {
     display: flex;
     width: 40rem;
