@@ -20,7 +20,7 @@ function Activities() {
           <h2>JET SKI</h2>
         </div>
         <div className="water2">
-          <img src={Cruising} alt="" />
+          <img className="waterimage" src={Cruising} alt="" />
           <h2>CRUISING</h2>
         </div>
       </div>
