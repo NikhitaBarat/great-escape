@@ -1,7 +1,6 @@
 const { graphqlHTTP } = require('express-graphql')
 const { buildSchema } = require('graphql')
 const express = require('express')
-
 const router = express.Router()
 
 let schema = buildSchema(`
