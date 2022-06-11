@@ -37,9 +37,9 @@ root.render(
       <BrowserRouter>
         <Auth0Provider {...providerConfig}>
           <App />
-        </Auth0Provider>{" "}
-      </BrowserRouter>{" "}
-    </ApolloProvider>{" "}
+        </Auth0Provider>
+      </BrowserRouter>
+    </ApolloProvider>
   </React.StrictMode>
 );
 
