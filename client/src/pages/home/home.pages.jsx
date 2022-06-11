@@ -19,7 +19,7 @@ const Home = () => {
         <img className='bg-sky' src={Sky} alt="" />
       </div>
       <img src={Plane} className="plane" alt="" />
-      <h1>Hotels and <br/> Accomodation</h1>
+      <h1>Tickets and <br/> Accomodation</h1>
     </div>
     </div>
   )
