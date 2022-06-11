@@ -11,9 +11,32 @@
     margin-left: 4rem;
     margin-top: -7rem;
 }
-.profile-card{
-    margin-left: -18rem;
+
+.profile-card-content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0 2rem;
+}
+.pro-content {
+    flex: .2;
+    text-align: center;
+}
+
+.pro-other-details {
+    flex: .8;
+    padding: 1rem 5rem;
+    font-size: 2.5rem;
+}
+
+.pro-input {
+    height: 2.5rem;
+    width: 20rem;
+    margin: 1rem;
+    padding: 0 .5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.name-details {
+    display: flex;
 }
