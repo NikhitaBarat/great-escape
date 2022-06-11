@@ -16,6 +16,7 @@
 .nav_options li a{
     text-decoration: none;
     border: none;
+    color: black;
     
 }
 .nav_options li a:hover{
@@ -31,6 +32,7 @@
 .signin_options li a{
     text-decoration: none;
     border: none;
+    color: black;
 }
 .signin_options li a:hover{
     border-bottom: 1px solid;
