@@ -1,0 +1,32 @@
+.heading {
+    font-size: 5rem;
+}
+
+.heading-form {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.form-info p {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.row {
+    padding: 1em;
+}
+
+.form-input input {
+    width: 30rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid black;
+    display: block;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-family: 'Amatic SC', cursive;
+    padding: 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
