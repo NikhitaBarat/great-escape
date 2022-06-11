@@ -17,11 +17,11 @@ function Activities() {
       <div className="water">
         <div className="water1">
           <img src={JetSki} alt="" />
-          <h2 className="name">JET SKI</h2>
+          <h2>JET SKI</h2>
         </div>
         <div className="water2">
           <img src={Cruising} alt="" />
-          <h2 className="name">CRUISING</h2>
+          <h2>CRUISING</h2>
         </div>
       </div>
       <ActivityCard />
