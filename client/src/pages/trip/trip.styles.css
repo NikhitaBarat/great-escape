@@ -1,0 +1,57 @@
+.trip {
+    padding: 2rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+}
+.box{
+    position: relative;
+    margin-top: -40rem;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    width: 70rem;
+    height: 40rem;
+}
+
+.box-right {
+    height: 20rem;
+    width: 40rem;
+    background: rgba(108, 76, 37, 0.5);
+    backdrop-filter: blur(2px);
+    float: right;
+    font-weight: 400;
+    text-align: right;
+    padding: 5rem;
+    padding-bottom: 2rem !important;
+    padding-left: 2rem !important;
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.price1{
+    text-align: left;
+}
+.price2{
+    text-align: right;
+}
+.box-left {
+    height: 20rem;
+    width: 40rem;
+    background: rgba(32, 94, 99, 0.7);
+    backdrop-filter: blur(2px);
+    float: left;
+    font-weight: 400;
+    padding: 5rem;
+    padding-bottom: 2rem !important;
+    padding-right: 2rem !important;
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
