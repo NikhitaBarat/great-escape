@@ -1,6 +1,5 @@
 import React from 'react'
 import './trip.styles.css'
-import Price from '../../assets/price.png'
 
 const Trip = () => {
   return (
