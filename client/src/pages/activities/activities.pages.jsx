@@ -16,7 +16,7 @@ function Activities() {
       </div>
       <div className="water">
         <div className="water1">
-          <img src={JetSki} alt="" />
+          <img className="waterimage" src={JetSki} alt="" />
           <h2>JET SKI</h2>
         </div>
         <div className="water2">
