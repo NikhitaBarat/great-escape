@@ -1,0 +1,23 @@
+    .heading {
+        font-size: 5em;
+        font-weight: 800;
+        padding: 3rem;
+        display: flex;
+    }
+    
+    .photo {
+        display: flex;
+    }
+    
+    .photo img {
+        margin: auto;
+        border-radius: 2rem;
+        height: 50rem;
+        width: 25rem;
+        padding: 2rem;
+    }
+    
+    .photo img:nth-child(1),
+    .photo img:nth-child(3) {
+        margin-top: 5rem;
+    }
