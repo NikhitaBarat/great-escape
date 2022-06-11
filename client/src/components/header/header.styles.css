@@ -35,7 +35,7 @@
     color: black;
 }
 .signin_options li a:hover{
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 .gray{
     color: gray !important;
