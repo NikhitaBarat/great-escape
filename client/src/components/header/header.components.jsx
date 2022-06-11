@@ -36,7 +36,7 @@ const Header = () => {
           <ul>
             <span className="gray">
               <li onClick={() => loginWithRedirect()}>
-                <a href="/">sign up</a>
+                <a className="gray" href="/">sign up</a>
               </li>
             </span>
             <li onClick={() => loginWithRedirect()}>
@@ -46,7 +46,7 @@ const Header = () => {
         )}
         { isAuthenticated && (
           <ul>
-            <span className="gray">
+            <span>
               <li onClick={() => logoutWithRedirect()}>
                 <a href="/">Logout</a>
               </li>
