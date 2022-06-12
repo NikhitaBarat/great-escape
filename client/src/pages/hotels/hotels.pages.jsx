@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import HotelCard from "../../components/hotelCard/hotelcard.components.jsx";
 import SearchIcon from "../../assets/ei_search.png";
 import { useQuery, gql } from "@apollo/client";
-import { HotelSearch } from "../../assets/index.js";
 import "./hotels.styles.css";
 
 const Hotels = () => {
