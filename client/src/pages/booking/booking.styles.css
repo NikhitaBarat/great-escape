@@ -1,0 +1,152 @@
+.book-bg-image {
+    height: 30rem;
+    width: 100vw;
+    background-color: rgb(246, 248, 232);
+    display: flex;
+    justify-content: center;
+}
+
+.inner-bg {
+    color: white;
+    margin-top: 2rem;
+    height: 10rem;
+    width: 80vw;
+    border-radius: 12px;
+    padding: 2rem;
+    background: url('https://picjumbo.com/wp-content/uploads/dark-red-abstract-background-with-circles-free-photo-1080x720.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 34px 8px rgba(0, 0, 0, 0.35);
+}
+.booking-page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel-profile {
+    height: 20rem;
+    border-radius: 15px;
+}
+
+.booking-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -12rem;
+
+}
+.hotel-main-container {
+    padding: 2rem;
+    width: 40rem;
+}
+.hotel-book-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-book-content h1 {
+    font-size: 2.5rem;
+}
+
+.hotel-book-content p {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.hotel-rating-div {
+    display: flex;
+}
+
+.booking-actions {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.date-picker {
+    margin-right: 1rem;
+    height: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.date-picker:hover {
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.15);
+}
+
+.book-now-btn {
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.book-now-btn:hover {
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.25);
+}
+
+.book-now-btn:active {
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.15);
+}
+
+.date-pick-section {
+    display: flex;
+}
+
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gt {
+    background-color: rgba(213, 213, 213, 0.51);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.book-trip-btn {
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+    outline: none;
+    border: none;
+}
+
+.book-trip-btn:hover  {
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 1500px) {
+    .inner-bg{
+        width: 75rem;
+    }
+}
