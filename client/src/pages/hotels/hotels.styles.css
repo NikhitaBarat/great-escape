@@ -44,12 +44,18 @@
 }
 
 .hotel-image-for-search {
-    height: 25rem;
+    height: 15rem;
+    width: 71rem;
     border-radius: 15px;
     padding: 5rem;
     font-size: 2rem;
     color: white;
     box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.25);
-    width: 50rem;
-    background: url('https://i.imgur.com/7Pr4aCa.jpg');
+    background: url('https://w0.peakpx.com/wallpaper/773/290/HD-wallpaper-luxury-hotel-honeymoon-swimming-pool-hotel-vacation-travelling.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hotel-image-for-search h1{
+    padding-right: 0.1rem;
+    text-align: right;
 }
