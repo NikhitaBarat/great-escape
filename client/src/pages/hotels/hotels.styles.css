@@ -59,3 +59,13 @@
     padding-right: 0.1rem;
     text-align: right;
 }
+
+@media (max-width:702px) {
+    .hotel-image-for-search {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .hotel-search-field{
+        width: 30rem;
+    }
+}
