@@ -3,7 +3,6 @@ import HotelCard from "../../components/hotelCard/hotelcard.components.jsx";
 import SearchIcon from "../../assets/ei_search.png";
 import { useQuery, gql } from "@apollo/client";
 import "./hotels.styles.css";
-import { Link } from 'react-router-dom'
 
 const Hotels = () => {
   const [search, setSearch] = useState("");
@@ -53,9 +52,7 @@ const Hotels = () => {
           <img className="searchimage" src={SearchIcon} alt="" />
         </div>
       </div>
-      <Link to='/book'>
         <HotelCard hotels={filteredHotel} />
-      </Link>
     </div>
   );
 };

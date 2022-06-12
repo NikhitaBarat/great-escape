@@ -1,13 +1,14 @@
 import React from 'react'
 import './hotelcard.styles.css'
+import { Link } from 'react-router-dom'
 
 
 const Hotelcard = ({hotels}) => {
-
   return (
     <div>
       <ul class="cards">
         {hotels.map((hotel) => (
+          <Link to={`/book/${hotel.hotel_name.replaceAll(" ", "").toLowerCase()}`}>
             <li>
             <div href="" className="card">
               <img src={hotel.imgurl} className="card__image" alt="" />
@@ -24,7 +25,8 @@ const Hotelcard = ({hotels}) => {
                 <p class="card__description">Adaaran Club Rannalhi is featured among the best hotels in Maldives and sits exclusively at the tip of the South Male atoll within the exotic collection of islands known as the Maldives.</p>
               </div>
             </div>
-          </li>
+            </li>
+          </Link>
         ))}
 
       </ul>
