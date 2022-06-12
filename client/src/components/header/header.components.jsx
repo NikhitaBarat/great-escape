@@ -11,7 +11,9 @@ const Header = () => {
     });
   return (
     <div className="navbar">
-      <div></div>
+      <div className="brand-logo">
+        Great Escape
+      </div>
       <div className="nav_options">
         <ul>
           <li>

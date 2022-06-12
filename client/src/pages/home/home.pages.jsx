@@ -16,6 +16,11 @@ const Home = () => {
           </p>
         </div>
       </div>
+
+      <div className="participants">
+        
+      </div>
+
       <div className="middle-section">
         <h1>
           Tickets and <br /> Accomodation
