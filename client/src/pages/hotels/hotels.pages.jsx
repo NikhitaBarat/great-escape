@@ -43,7 +43,7 @@ const Hotels = () => {
     <div className="hotels">
       <div className="hotel-bg">
         <div className="hotel-image-for-search">
-          <h1>Looking For Hotel</h1>
+          <h1>Looking For accomodation?</h1>
         </div>
       </div>
       <div className="search-area">

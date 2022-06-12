@@ -17,9 +17,9 @@ const Footer = () => {
                 <h2>Quick Links</h2>
                 <ul>
                   <li><a href="/">About Us</a></li>
-                  <li><a href="/">Your Profile</a></li>
-                  <li><a href="/">Pricing</a></li>
-                  <li><a href="/">Contact</a></li>
+                  <li><a href="/profile">Your Profile</a></li>
+                  <li><a href="/trip">Pricing</a></li>
+                  <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
               <div class=" item">
@@ -47,11 +47,11 @@ const Footer = () => {
                 </p>
                 <div class=" item social">
                   <ul>
-                    <li><a href="#"><FacebookIcon className="fab" /></a></li>
-                    <li><a href="#"><PinterestIcon className="fab" /></a></li>
-                    <li><a href="#"><LinkedInIcon className="fab" /></a></li>
-                    <li><a href="#"><InstagramIcon className="fab" /></a></li>
-                    <li><a href="#"><TwitterIcon className="fab"/></a></li>
+                    <li><a href="/"><FacebookIcon className="fab" /></a></li>
+                    <li><a href="/"><PinterestIcon className="fab" /></a></li>
+                    <li><a href="/"><LinkedInIcon className="fab" /></a></li>
+                    <li><a href="/"><InstagramIcon className="fab" /></a></li>
+                    <li><a href="/"><TwitterIcon className="fab"/></a></li>
                   </ul>
                 </div>
               </div>

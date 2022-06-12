@@ -40,11 +40,6 @@ const ActivityCard = () => {
                   <h3 className="card__title">BOOK A NIGHT IN CRUISE</h3>
                   <span className="card__status">$145 per night</span>
                 </div>
-                {/* <div className="card__right">
-                  <span>
-                    7,557 km away <br /> 1-6 Nov
-                  </span>
-                </div> */}
               </div>
               <p class="card__description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
