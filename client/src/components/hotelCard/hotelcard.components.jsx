@@ -1,36 +1,13 @@
 import React from 'react'
 import './hotelcard.styles.css'
-import { useQuery, gql } from '@apollo/client'
 
-const Hotelcard = () => {
-  const { loading, error, data } = useQuery(gql`
-    {
-      hotels {
-        hotel_name,
-        imgurl,
-        despscription,
-        rating,
-        new_price
-      }
-    }
-  `)
-  if (loading) return (
-    <div className="filter-section">
-      <p>Loading...</p>
-    </div>
-  
-  );
 
-  if (error) return (
-    <div className="filter-section">
-      <p>Error :(</p>
-    </div>
-  );
+const Hotelcard = ({hotels}) => {
 
   return (
     <div>
       <ul class="cards">
-        {data.hotels.map((hotel) => (
+        {hotels.map((hotel) => (
             <li>
             <div href="" className="card">
               <img src={hotel.imgurl} className="card__image" alt="" />
