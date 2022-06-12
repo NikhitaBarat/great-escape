@@ -1,7 +1,7 @@
 import React from "react";
 import "./booking.styles.css";
 
-const Booking = () => {
+const Booking = ({data}) => {
   return (
     <div className="booking-page">
       <div className="book-bg-image">
@@ -15,23 +15,18 @@ const Booking = () => {
       <div className="booking-content">
         <img
           className="hotel-profile"
-          src={`https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/04/12/1329/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.jpg/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.16x9.jpg`}
+          src={data.imgurl}
           alt=""
         />
         <div className="hotel-main-container">
           <div className="hotel-book-content">
-            <h1>Great Hotel</h1>
+            <h1>{data.hotel_name}</h1>
             <div className="hotel-rating-div">
-              <p>4.4⭐</p>
+              <p>{data.rating}⭐</p>
             </div>
           </div>
           <h3>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+              {data.despscription}
           </h3>
 
           <div className="booking-actions">

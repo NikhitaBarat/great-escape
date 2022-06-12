@@ -1,0 +1,114 @@
+[
+  {
+    "hotel_name": "The Pallazzo",
+    "imgurl": "https://cdn.kiwicollection.com/media/property/PR005907/xl/005907-05-exterior-sunset.jpg?cb=1435955702",
+    "despscription": "The Palazzo Resort Hotel",
+    "rating": 4.5,
+    "new_price": 2560
+  },
+  {
+    "hotel_name": "Blue Corner Beach Huts & Restaurant",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/229693683_20220223181720.jpg",
+    "despscription": "Enclosed by towering palm trees on one side and the alluring Benaulim Beach on the other, Blue Corner Beach Huts & Restaurant features accommodation on a private beach area.",
+    "rating": 4.2,
+    "new_price": 4590
+  },
+  {
+    "hotel_name": "Summer Sky Beach Resort",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/237867937_20220223180827.jpg",
+    "despscription": "A beachfront paradise that overlooks lush mountains and the sea, Summer Sky Beach Resort sits on Agonda Beach. Equipped with modern amenities and snug fittings, this stunning property offers beach-sty",
+    "rating": 3.9,
+    "new_price": 2990
+  },
+  {
+    "hotel_name": "The Leela Goa",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/102/102611462.jpg",
+    "despscription": "Surrounded by gardens and blue lagoons, this beach resort in Goa offers luxurious rooms with a DVD player. Facilities include a 12-hole golf course and an outdoor pool. Free Wifi is available.",
+    "rating": 3.9,
+    "new_price": 15000
+  },
+  {
+    "hotel_name": "Taj Exotica Resort & Spa",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/182/182518863.jpg",
+    "despscription": "Mediterranean-inspired Taj Exotica Resort & Spa in Benaulim covers 56+ acres of lush fields facing the Arabian Sea. The garden-view and sea-view villas, deluxe rooms and suites are accompanied.",
+    "rating": 4.4,
+    "new_price": 12502
+  },
+  {
+    "hotel_name": "Jardim a Mar",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/182/182518863.jpg",
+    "despscription": "Sprawled on the golden sands of Agonda Beach, this seafront resort and renowned Goan restaurant is popular for its laid-back cottages, bungalows and rooms amidst unspoilt tropical foliage of South Goa.",
+    "rating": 4.7,
+    "new_price": 1275
+  },
+  {
+    "hotel_name": "O3 Beach Resort",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/182/182518863.jpg",
+    "despscription": "Wake up to picturesque sea views and serene cold breeze at O3 Beach Resort. Located on Palolem Beach, this beachfront resort flaunts a funky in-house bar and restaurant.",
+    "rating": 4.7,
+    "new_price": 1200
+  },
+  {
+    "hotel_name": "Agonda Serenity Resort",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/182/182518863.jpg",
+    "despscription": "Located in Agonda, 60 m from Agonda Beach, Agonda Serenity Resort highlights accommodation with an eating joint, free private parking, a bar and a garden.",
+    "rating": 4.7,
+    "new_price": 4200
+  },
+  {
+    "hotel_name": " Beach Street Eco Resort & Spa",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/188074617_20220223172326.jpg",
+    "despscription": "Beach Street Eco Resort & Spa offers direct access to Mandrem Beach. Beautifully built in tropical-style cottages, the rooms feature minimal and homey furnishings in a warm ambience. ",
+    "rating": 4.7,
+    "new_price": 3010
+  },
+  {
+    "hotel_name": "Simrose",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/66632611_20210122151055.jpg",
+    "despscription": "Stay on Agonda Beach surrounded by palm grove at Simrose that has a stone house and quadruple rooms on the ground floor and traditional room on the first floor.",
+    "rating": 4.2,
+    "new_price": 2919
+  },
+  {
+    "hotel_name": "Fiesta Beach Resort",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/183056781_20210413105003.jpg",
+    "despscription": "Soaked in vintage charm and modern comforts, Fiesta Beach Resort flaunts an experience of a lifetime with vibrant nightclubs and nightlife at its doorsteps.",
+    "rating": 4.2,
+    "new_price": 3960
+  },
+  {
+    "hotel_name": "Holiday Inn Resort Goa",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/281/281515127.jpg",
+    "despscription": "Beach Street Eco Resort & Spa offers direct access to Mandrem Beach. Beautifully built in tropical-style cottages, the rooms feature minimal and homey furnishings in a warm ambience.",
+    "rating": 4.1,
+    "new_price": 6760
+  },
+  {
+    "hotel_name": "Azaya Beach Resort Goa",
+    "imgurl": "https://cf.bstatic.com/images/hotel/max1024x768/135/135004602.jpg",
+    "despscription": "This rustic-chic resort beside the Arabian Sea provides sea-facing suites with idyllic themes and innovative furnishing. The location and banquet hall at the resort are coveted for weddings and partie",
+    "rating": 4.1,
+    "new_price": 16060
+  },
+  {
+    "hotel_name": "Caravela Beach Resort",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/62495169_20210322223213.jpg",
+    "despscription": "Located on Varca Beach, this resort houses a spectacular 9-hole golf course and offers exhilarating water sports facilities.",
+    "rating": 4.5,
+    "new_price": 8060
+  },
+  {
+    "hotel_name": "Hotel Hill Rock Goa",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/230780046_20220223174055.jpg",
+    "despscription": "Perched atop a hillock with luscious palms and captivating views of Tiracol River and Arabian Sea, Hill Rock is a hotspot for exhilarating adventures like diving and windsurfing. .",
+    "rating": 4,
+    "new_price": 8160
+  },
+  {
+    "hotel_name": "Roundcube Beach Bungalows",
+    "imgurl": "https://www.holidify.com/images/cmsuploads/compressed/230780046_20220223174055.jpg",
+    "despscription": "Known to be one of the best beach resorts in South Goa, staying at Roundcube’s laid-back, quaint bungalows gives guests the opportunity to explore the spectacular Palolem beach and hikes, trail.",
+    "rating": 3,
+    "new_price": 1160
+  }
+]

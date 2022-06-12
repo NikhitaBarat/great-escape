@@ -84,15 +84,18 @@
 .card__title {
     font-size: 1.5rem;
     margin: 0 0 .3em;
+    color: black;
 }
 
 .card__tagline {
     display: block;
     margin: 1em 0;
     font-size: .8em;
+    color: black;
 }
 
 .card__status {
+    color: black;
     font-size: .8em;
 }
 
@@ -105,10 +108,13 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    color: black;
+
 }
 
 .card__right {
     font-size: 1rem;
+    color: black;
     font-weight: 900;
 }
 
