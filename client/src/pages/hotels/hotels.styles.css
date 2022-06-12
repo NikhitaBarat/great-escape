@@ -1,32 +1,55 @@
-.search {
-    text-align: center;
-    vertical-align: center;
-    line-height: 100vh;
-    padding-top: 2rem;
-    padding-left: 15rem;
-    border-radius: 20rem;
+.search-area {
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.search-field {
+.hotel-search-field {
+    position: relative;
+    margin-top: -8rem;
     display: flex;
     width: 40rem;
     align-items: center;
     background-color: #EAEAEA;
-    padding: .05rem 1rem;
+    padding: .5rem 1rem;
     justify-content: space-between;
     border-radius: 20px;
+    transition: all .2s;
 }
 
-.search-field input {
+.hotel-search-field input {
     background-color: transparent;
     border: none;
     outline: none;
     width: 90%;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.hotel-search-field:hover {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.25);
 }
 
 .searchimage{
     height: 2rem;
+}
+
+.hotel-bg {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.hotel-image-for-search {
+    height: 25rem;
+    border-radius: 15px;
+    padding: 5rem;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 0px 4px 34px 4px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    background: url('https://i.imgur.com/7Pr4aCa.jpg');
 }
