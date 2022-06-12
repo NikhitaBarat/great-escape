@@ -4,6 +4,7 @@
 }
 
 .water {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,4 +66,16 @@
         margin-top: 20rem !important;
         margin-left: -35rem !important;
     }
+}
+
+.book-bg-image-act {
+    height: 30rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-container {
+    position: relative;
+    margin-top: -20rem;
 }

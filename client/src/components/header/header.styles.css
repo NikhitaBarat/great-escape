@@ -47,3 +47,8 @@
     width: 2.5rem;
     border-radius: 20px;
 }
+
+.brand-logo {
+    font-family: 'Satisfy', cursive;
+    margin-left: 2rem;
+}
