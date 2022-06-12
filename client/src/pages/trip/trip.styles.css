@@ -2,7 +2,7 @@
     padding: 2rem;
     color: #ffffff;
     margin-bottom: 5rem;
-    height: 120vh;
+    /* height: 120vh; */
 }
 
 .box {
@@ -100,4 +100,17 @@
     .box-right {
         right: 20rem;
     }
+}
+
+.trip-packages {
+    margin-top: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trip-list {
+    display: flex;
+    flex-wrap: wrap;
 }

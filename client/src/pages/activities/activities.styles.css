@@ -47,3 +47,36 @@
 .water img:hover {
     transform: scale(1.05);
 }
+.categories {
+    padding: 0 5rem;
+}
+
+.activity-category {
+    height: 12rem;
+    width: 15rem;
+    padding: 1rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: 1px solid grey;
+    transition: all .6s;
+    cursor: pointer;
+}
+.activity-category:hover{
+    box-shadow: 0 10px 35px 4px rgba(0, 0, 0, 0.18);
+    border: none;
+}
+
+.icon-activity {
+    height: 2rem;
+    width: 2rem;
+}
+
+.activity-options {
+    display: flex;
+    flex-wrap: wrap;
+}
