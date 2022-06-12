@@ -2,10 +2,12 @@ import "./App.css";
 import Header from "./components/header/header.components.jsx";
 import Footer from "./components/footer/footer.components.jsx"
 import { Routes, Route } from "react-router-dom";
-import { Trip, Hotels, Home, Activities, Profile, Gallery, Contact } from "./pages";
+import { Trip, Hotels, Home, Activities, Profile, Gallery, Contact, Booking } from "./pages";
+// import { useQuery , gql  } from '@apollo/client';
 import "./App.css";
 
 function App() {
+
   return (
     <div className="App">
       <Header />
@@ -16,6 +18,7 @@ function App() {
         <Route path="/hotels" element={<Hotels />} />
         <Route path="/trip" element={<Trip />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/book" element={<Booking/> } />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

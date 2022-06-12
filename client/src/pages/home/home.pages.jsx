@@ -49,9 +49,9 @@ const Home = () => {
 
           <div className="road-trip-side-bg">
             <h1>ROAD TRIP</h1>
-              <button className="book-now">BOOK NOW</button>
-            </div>
+            <button className="book-now">BOOK NOW</button>
           </div>
+        </div>
       </div>
     </div>
   );
