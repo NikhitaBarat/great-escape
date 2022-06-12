@@ -17,3 +17,4 @@ export { default as block3 } from "./image 42.png";
 export { default as block4 } from "./image 43.png";
 export { default as block5 } from "./image 44.png";
 export { default as block6 } from "./image 45.png";
+export { default as HotelSearch } from "./hotelsearch.jpg"
