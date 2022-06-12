@@ -2,12 +2,14 @@
     padding: 2rem;
     color: #ffffff;
     margin-bottom: 5rem;
-    height: 100vh;
+    height: 120vh;
 }
-.box{
+
+.box {
     position: relative;
     margin-top: -40rem;
 }
+
 .image {
     display: block;
     margin-left: auto;
@@ -36,12 +38,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.price1{
+
+.price1 {
     text-align: left;
 }
-.price2{
+
+.price2 {
     text-align: right;
 }
+
 .box-left {
     height: 20rem;
     width: 40rem;
@@ -61,7 +66,7 @@
     justify-content: space-between;
 }
 
-@media only screen and  (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .box-left {
         left: 5rem;
     }
@@ -70,7 +75,7 @@
     }
 }
 
-@media only screen and  (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
     .box-left {
         left: 10rem;
     }
@@ -78,7 +83,8 @@
         right: 10rem;
     }
 }
-@media only screen and  (min-width: 1600px) {
+
+@media only screen and (min-width: 1600px) {
     .box-left {
         left: 15rem;
     }
@@ -86,7 +92,8 @@
         right: 15rem;
     }
 }
-@media only screen and  (min-width: 1800px) {
+
+@media only screen and (min-width: 1800px) {
     .box-left {
         left: 20rem;
     }
