@@ -26,7 +26,7 @@ const providerConfig = {
 };
 
 const client = new ApolloClient({
-  uri: "https://great-escape.herokuapp.com/graphql",
+  uri: "https://greate-escape.fly.dev/graphql",
   cache: new InMemoryCache(),
 });
 
