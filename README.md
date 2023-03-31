@@ -90,7 +90,7 @@ Edit `<user-name>` , `<password>` and `<databaseName>`
 
 
 
-##  Setting up development 
+##  Setting up development Environment
 
 
 - Clone the project
