@@ -23,9 +23,6 @@ We started off by planning and customizing the UI design and what major things t
 
 ## API Reference
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
 
 #### Open GraphQL Interface endpoint 
 
